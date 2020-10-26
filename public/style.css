@@ -17,18 +17,18 @@ body {
 /* Navigation  */
 
 #nav {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     width: 100%;
-    height: 3rem;
-    background-color: #333333;
+    height: 5vh;
+    background-color: black;
 }
 
 #nav-container {
     display: inline-block;
     width: 100%;
-    line-height: 3rem;
+    line-height: 5vh;
     text-align: center;
 }
 
@@ -40,15 +40,20 @@ body {
 
 .nav-item:hover {
     transition: all 0.5s;
-    background-color: red;
+    background-color: #F4F2E5;
 }
 
 .nav-item {
     display: inline-block;
     padding: 0 2rem;
+    font-size: 1.5rem;
 }
 
-#main-body {
+.nav-item:hover {
+    color: black;
+}
+
+/* #main-body {
     background-image: linear-gradient(to right, rgba(167, 214, 236, 0.8), rgba(236, 167, 167, 0.8)), url("https://images.pexels.com/photos/99562/texture-handwriting-sutterlin-vintage-99562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
     background-size: cover;
@@ -56,7 +61,21 @@ body {
     margin-top: 3rem;
     height: 50vh;
     position: relative;
+} */
+
+#main-body {
+    /* background-image: url("https://images.pexels.com/photos/99562/texture-handwriting-sutterlin-vintage-99562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"); */
+    background-color: #F4F2E5;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-top: 3rem; */
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    overflow: hidden;
 }
+
 
 #banner {
     position: absolute;
@@ -64,5 +83,69 @@ body {
     left: 50%;
     transform: translateX(-50%);
     font-size: 3rem;
+    color: white;
+}
+
+img {
+    height: 95%;
+    width: auto;
+    top: 5%;
+    position: absolute;
+    left: 48%;
+    transform: translateX(-50%);
+    padding: 2rem;
+
+}
+
+
+/* Footer  */
+
+/* Footer */
+
+#footer-container {
+    background-color: #323233;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    grid-template-rows: 1;
+    justify-content: center;
+}
+
+.footer-container__column {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+}
+
+.footer-container__column__title {
+    font-size: 1.5rem;
+    color: white;
+}
+
+.footer-container__column__text {
+    margin: 1rem;
+    color: white;
+    font-size: 1em;
+}
+
+.footer-container__column__social {
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-container__column__social__icon {
+    color: white;
+    font-size: 2.1rem;
+}
+
+.footer-container__column__social__icon:hover,
+.footer-container__column__social__icon:active {
+    cursor: pointer;
+}
+
+.copyright {
+    text-align: center;
+    margin: auto;
     color: white;
 }
