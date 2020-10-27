@@ -3,40 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
+    <title>Disfigured</title>
     <link rel="stylesheet" href="../../public/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/vrx1ibh.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <nav id="nav">
         <ul id="nav-container">
             <a href="../../index.html" class="nav-item__link"><li class="nav-item">Home</li></a>
-            <a href="./index.html" class="nav-item__link"><li class="nav-item active">Portfolio</li></a>
+            <a href="../Portfolio/index.html" class="nav-item__link"><li class="nav-item">Portfolio</li></a>
             <a href="../About/index.html" class="nav-item__link"><li class="nav-item">About</li></a>
         </ul>
     </nav>
-    <main id="portfolio-container">
-        <section class="portfolio-item__container">
-            <a href="../SubPages/disfigured.html" class="portfolio-item__link">
-                <img class="portfolio-item__img" alt="thumbnail" src="../../public/images/Disfigured.png">
+    <main id="sub-pages__container">
+        <div class="sub-column">
+            <h2 id="sub-title">Thanksgiving</h2>
+            <hr id="title-underline">
+            <p id="sub-date">April 2020</p>
+            <p id="sub-desc">An alcoholic father attempts to get his family of four to their grandparents’ house on a chilling November night across treacherous icy roads, but will they make it there alive?</p>
+        </div>
+        <div class="sub-column">
+            <a href="https://vimeo.com/422230330">
+                <img id="sub-img" alt="thumbnail" src="../../public/images/Thanksgiving-black.png">
             </a>
-        </section>
-        <section class="portfolio-item__container">
-            <a href="../SubPages/masks.html" class="portfolio-item__link">
-                <img class="portfolio-item__img" alt="thumbnail" src="../../public/images/Masks.png">
-            </a>
-        </section>
-        <section class="portfolio-item__container">
-            <a href="../SubPages/thanksgiving-video.html" class="portfolio-item__link">
-                <img class="portfolio-item__img" alt="thumbnail" src="../../public/images/Thanksgiving-black.png">
-            </a>
-        </section>
-        <section class="portfolio-item__container">
-            <a href="../SubPages/thanksgiving-script.html" class="portfolio-item__link">
-                <img class="portfolio-item__img" alt="thumbnail" src="../../public/images/Thanksgiving-white.png">
-            </a>
-        </section>
+        </div>
     </main>
     <footer id="footer-container">
         <div class="footer-container__column">
@@ -56,6 +47,5 @@
             </div>
         </div>
     </footer>
-    <script src="https://kit.fontawesome.com/3cf526719d.js" crossorigin="anonymous"></script>
 </body>
 </html>

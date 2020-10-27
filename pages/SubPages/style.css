@@ -1,0 +1,45 @@
+#sub-pages__container {
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    padding: 10rem 10rem;
+    vertical-align: center;
+    justify-content: center;
+    height: 85vh;
+    grid-gap: 5rem;
+}
+
+.sub-column {}
+
+
+#sub-title {
+    font-size: 3rem;
+}
+
+#title-underline {
+    width: 80%;
+    margin: 1rem 0;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);;
+}
+
+#sub-date {
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.712);
+}
+
+#sub-desc {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+    line-height: 2.5rem;
+}
+
+#sub-img {
+    width: 100%;
+    height: auto;
+}
+
+.sub-credits {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0 1rem;
+}
