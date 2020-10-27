@@ -1,0 +1,24 @@
+#portfolio-container {
+    display: grid;
+    grid-template-columns: 25fr 25fr;
+    grid-gap: 3rem;
+    justify-content: center;
+    padding: 3rem 2rem;
+    height: auto;
+}
+
+.portfolio-item__container {
+    height: auto;
+    text-align: center;
+
+}
+
+#portfolio-item__link {
+
+    height: 30vh;
+}
+
+.portfolio-item__img {
+    height: 40vh;
+    width: 80%;
+}

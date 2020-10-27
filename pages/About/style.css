@@ -1,0 +1,19 @@
+#about-container {
+    width: 100%;
+    padding: 3rem 5rem 8rem 5rem;
+    display: grid;
+    grid-template-columns: 30fr 70fr;
+    grid-gap: 3rem;
+}
+
+#about-container__img {
+    height: auto;
+    width: 100%;
+    /* float: left; */
+    /* border-radius: 10px; */
+}
+
+.about-container__text {
+    font-size: 2.3rem;
+    line-height: 4rem;
+}

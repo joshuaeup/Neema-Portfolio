@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #333333;
+    background-color:#F4F2E5;
     font-family: retiro-std-24pt, sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -53,6 +53,11 @@ body {
     color: black;
 }
 
+.active {
+    background-color: #F4F2E5;
+    color: black;
+}
+
 /* #main-body {
     background-image: linear-gradient(to right, rgba(167, 214, 236, 0.8), rgba(236, 167, 167, 0.8)), url("https://images.pexels.com/photos/99562/texture-handwriting-sutterlin-vintage-99562.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-position: center;
@@ -86,7 +91,7 @@ body {
     color: white;
 }
 
-img {
+#banner-logo {
     height: 95%;
     width: auto;
     top: 5%;
@@ -94,7 +99,6 @@ img {
     left: 48%;
     transform: translateX(-50%);
     padding: 2rem;
-
 }
 
 
@@ -103,7 +107,8 @@ img {
 /* Footer */
 
 #footer-container {
-    background-color: #323233;
+    font-family: inherit;
+    background-color: black;
     padding: 3rem;
     display: grid;
     grid-template-columns: 50fr 50fr;
@@ -126,6 +131,7 @@ img {
     margin: 1rem;
     color: white;
     font-size: 1em;
+    display: inline-block;
 }
 
 .footer-container__column__social {
@@ -148,4 +154,8 @@ img {
     text-align: center;
     margin: auto;
     color: white;
+}
+
+.responsive-nav__bottomLine {
+    margin: 1rem 0;
 }
