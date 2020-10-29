@@ -13,7 +13,7 @@
     text-align: center;
 }
 
-#portfolio-item__link {
+.portfolio-item__link {
     height: 30vh;
 }
 
@@ -47,14 +47,14 @@
     width: 80%;
 }
 
-.portfolio-item__container:hover {
+.portfolio-item__link:hover {
     cursor: pointer;
 }
 
-.portfolio-item__container:hover > .overlay {
+.portfolio-item__link:hover > .overlay {
     display: block;
 }
 
-.portfolio-item__container:hover > .portfolio-item__title  {
+.portfolio-item__link:hover > .portfolio-item__title  {
     display: block;
 }
