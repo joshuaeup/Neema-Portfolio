@@ -58,3 +58,9 @@
 .portfolio-item__link:hover > .portfolio-item__title  {
     display: block;
 }
+
+@media (max-width: 1100px) {
+    #portfolio-container {
+        grid-template-columns: 100fr;
+    }
+}
